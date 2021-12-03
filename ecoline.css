@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;900;&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100%;
+    width: 100%;
+}
+#header{
+    top: 0;
+    left: 0;
+}
+.logo{
+    background-color: #56732A;
+    height: 70px;  
+    width: 100%;
+    padding-left: 10%;
+    font-family: Righteous;
+    font-size: 50px;
+    color: #FFFFFF;
+    top: 0;
+    left: 0;
+ 
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    background: #C4C4C4;
+    position: absolute;
+    height: 35px;
+    justify-content: space-around;
+    padding-left: 10%;
+}
+
+.block{
+    width: 25%;
+    padding: auto;
+}
+
+a,p{
+    font-family:  "Open Sans", sans-serif;
+    text-decoration: none;
+    font-weight: 00;
+    font-size: 20px;
+    color: #000000;
+    margin: auto ;
+}
+
+.novinki{
+    position: sticky;
+    font-family:  "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    color: #000000;
+    text-align: center;
+    margin-top: 40px;  
+}
+section{
+    max-width: 80%;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display:flex;
+    
+}
+@media screen and (max-width: 600px) { 
+    section{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 680px){
+    .t1{
+        font-size:17px ;
+    }    
+}
+@media screen and (max-width: 440px){
+    nav{
+    font-size: 15px;
+    }
+    a,p{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:380px) {
+    .key {
+        padding: 0.6em auto;
+        width: auto;
+        background-color: #fff;
+        border-radius: 50px;
+        border: 0;
+        cursor: pointer;
+        font-size: 14px;
+        font-family:  "Open Sans", sans-serif;
+        font-weight: normal;
+      }
+}
+.cream{
+    height: 100%;
+    text-align:center;   
+
+}
+.laroch{
+    height: 100%;
+    text-align:center;   
+}
+.parf{
+    height: 100%;
+    text-align: center;   
+}
+img{
+    width: 65%;
+    height: 65%;
+}
+.price{
+    font-family:  "Open Sans", sans-serif;
+    font-weight: 900;
+    font-size: 22px;
+
+}
+.concurs{
+    margin-top: 8%;
+    background-image: url(more.jpg);
+    width: 100%;
+    height: 100%;
+    margin-bottom: 8%;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+.back{
+    margin-left: 10%;
+    width: 60%;
+    margin-top: 10%;
+    background: rgba(0, 0, 0, 0.57);
+    
+}
+h3{
+    font-family:  "Righteous", sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    color: #fff;
+    margin-left: 6%;
+    padding-top: 3%;
+    
+}
+.uslovie{
+    margin-left: 6%;
+    color: #fff;
+    font-family:  "Open Sans", sans-serif;
+    margin-top: 30px;
+    font-size: 15px;
+    width: 70%;
+    padding-bottom: 4%;
+    line-height: 23px;
+}
+button{
+    margin-left: 6%;
+    margin-bottom: 5%;
+}
+.key {
+    padding: 15px 15px;
+    background-color: #fff;
+    border-radius: 50px;
+    border: 0;
+    cursor: pointer;
+    font-size: 22px;
+    font-family:  "Open Sans", sans-serif;
+    font-weight: 900;
+  }
+  button:hover{
+    background-color: #f3971c ;
+    color:#fff;
+  }
+  .footer{
+	display: flex;
+    position: absolute;
+	justify-items: center;
+	align-items: center;
+	padding: 1% 20%;
+}
+.img_footer{
+	width: 100%;
+	justify-self: center;
+}
+.neet{
+	width: 7%;
+}
+.follow{
+	color: rgb(10, 83, 105);
+	text-align: center;
+    margin-bottom: 3%;
+	font-size: 20px;
+	line-height: 100%;
+    font-family:  "Open Sans", sans-serif;
+    text-decoration: none;
+    font-weight: 900;
+    margin-right: 60px;
+
+}
+.topbutton {
+    width:60px;
+    height: 60px;
+    background-color:#56732A;
+    text-align:center;
+    padding:15px ;
+    position:fixed;
+    bottom:5%;
+    right:5%;
+    cursor:pointer;
+    color:#fff;
+    font-family: "Righteous";
+    font-size: 17px;
+    border-radius: 50%;
+    }
+.topbutton:hover{
+    color: black;
+}
